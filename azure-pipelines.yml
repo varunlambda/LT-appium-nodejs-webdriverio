@@ -11,10 +11,6 @@ pool:
 
 steps:
 
-- task: configuration@1
-  inputs:
-    connection: 'VK'
-    isTunnelActivate: false
 - task: NodeTool@0
   inputs:
     versionSpec: '16.x'
