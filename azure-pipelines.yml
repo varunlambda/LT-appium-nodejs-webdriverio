@@ -13,7 +13,7 @@ steps:
 
 - task: configuration@1
   inputs:
-    connection: 'New'
+    connection: 'VK'
     isTunnelActivate: false
 - task: NodeTool@0
   inputs:
