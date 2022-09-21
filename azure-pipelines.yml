@@ -10,10 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: configuration@1
-  inputs:
-    connection: 'New'
-    isTunnelActivate: false
 - task: NodeTool@0
   inputs:
     versionSpec: '16.x'
