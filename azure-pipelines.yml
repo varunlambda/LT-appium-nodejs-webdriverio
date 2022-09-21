@@ -10,6 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
+- task: configuration@1
+  inputs:
+    connection: 'New'
+    isTunnelActivate: false
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
@@ -18,3 +23,4 @@ steps:
 - script: |
     npm install
     npm run singleAndroid
+
